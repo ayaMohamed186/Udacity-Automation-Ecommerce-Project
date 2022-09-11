@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.example.TestRunners.Runner
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 176.735 s <<< FAILURE! - in org.example.TestRunners.Runner
+org.example.TestRunners.Runner.runScenario  Time elapsed: 6.614 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+
+org.example.TestRunners.Runner.runScenario  Time elapsed: 9.879 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+
+org.example.TestRunners.Runner.runScenario  Time elapsed: 6.617 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+
